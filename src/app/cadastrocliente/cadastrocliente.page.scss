@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'Dela-Gothic-One';
+  src: url('../../fonts/delaGothicOne/DelaGothicOne-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ion-content {
+  --background: #ffffff;
+  --color: #E2828F;
+  padding: 0px;
+}
+
+.titulo {
+  font-family: 'Dela-Gothic-One';
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+ion-toolbar {
+  --background: #ffffff;
+  --color: #E2828F;
+
+  --border-width: 0px;
+  --border-color: transparent;
+  --box-shadow: none;
+
+  --min-height: 85px;
+}
+
+ion-header {
+  --border-width: 0px;
+  --border-color: transparent;
+  --box-shadow: none;
+}
+
+.ion-padding{
+  --padding-start: 16px;
+  --padding-end: 16px;
+  --padding-top: 0px;
+}
+
+.botao-seta {
+  --background: transparent;
+  --background-activated: transparent;
+  --background-hover: transparent;
+  --background-activated: transparent;
+  --background-focused: transparent;
+  --color: #E2828F;
+  --color-hover: #E2828F;
+  --color-activated: #E2828F;
+  --color-focused: #E2828F;
+  
+  --padding-start: 0;
+  --padding-end: 0;
+  --border-width: 0px;
+  --border-color: transparent;
+  --box-shadow: none;
+  --ripple-color: transparent;
+
+  width: 44px;
+  height: 40px;
+  margin: 0;
+}
+
+.botao-seta ion-icon {
+  font-size: 28px;
+}
+
+.botao-lapis ion-icon {
+  font-size: 28px;
+}
+
+.botao-lapis {
+    --background: transparent;
+  --background-activated: transparent;
+  --background-hover: transparent;
+  --background-activated: transparent;
+  --background-focused: transparent;
+  --color: #E2828F;
+  --color-hover: #E2828F;
+  --color-activated: #E2828F;
+  --color-focused: #E2828F;
+  
+  --padding-start: 0;
+  --padding-end: 0;
+  --border-width: 0px;
+  --border-color: transparent;
+  --box-shadow: none;
+  --ripple-color: transparent;
+
+  width: 44px;
+  height: 40px;
+  margin: 0;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  margin-top: 32px;
+  overflow: hidden;
+}
+
+.footer-art {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.onda {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.onda-1 {
+  z-index: 1;
+}
+
+.onda-2 {
+  z-index: 2;
+}
+
+.onda-3 {
+  z-index: 3;
+}
+
+.texto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.texto-container .titulo {
+  width: 100%;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.texto {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #E2828F;
+  box-sizing: border-box;
+}
+
+.input-container {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.buttons-container{
+    margin-top: 25px;
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+ion-button {
+    width: 200px;
+    --color: #fff;
+    --background: #E2828F;
+  --background-activated: #E2828F;
+  --background-hover: #E2828F;
+  --background-activated: #E2828F;
+  --background-focused: #E2828F;
+  --color-hover: #fff;
+  --color-activated: #fff;
+  --color-focused: #fff;
+}
+
+.input-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.campo-grupo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.campo {
+  width: 100%;
+  --background: #ffffff;
+  --color:#E2828F;
+  --border-color: #E2828F;
+  --border-width: 0px;
+  --border-style: solid;
+  --border-radius: 0px;
+  --padding-start: 0px;
+  --inner-padding-start: 0px;
+  --inner-padding-end: 0px;
+
+}
