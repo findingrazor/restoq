@@ -9,13 +9,13 @@ import { getAnalytics } from "firebase/analytics";
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyCb9iN0i0w4XQSstHRU84eGRz5Sqt583_A",
+    apiKey: "",
     authDomain: "apprestoq.firebaseapp.com",
     projectId: "apprestoq",
     storageBucket: "apprestoq.firebasestorage.app",
-    messagingSenderId: "360217188042",
-    appId: "1:360217188042:web:629116786e213999458633",
-    measurementId: "G-46LVZGH7GX"
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   }
 };
 // Initialize Firebase
