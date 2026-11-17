@@ -11,13 +11,9 @@ import {
   IonToolbar,
   IonButton,
   IonIcon,
-  IonAvatar,
   IonInput,
   IonItem,
   IonList,
-  IonLabel,
-  IonRadioGroup,
-  IonRadio,
 } from '@ionic/angular';
 
 @Component({
@@ -32,13 +28,9 @@ import {
     IonToolbar,
     IonButton,
     IonIcon,
-    IonAvatar,
     IonInput,
     IonItem,
     IonList,
-    IonLabel,
-    IonRadioGroup,
-    IonRadio,
   ],
 })
 export class CadastrouserPage implements OnInit {

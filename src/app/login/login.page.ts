@@ -3,18 +3,16 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { addIcons } from 'ionicons';
 import { bag, mail } from 'ionicons/icons'; 
-import { IonButtons,
+import { 
   IonContent,
   IonHeader,
   IonTitle,
   IonToolbar,
   IonButton,
   IonIcon,
-  IonAvatar,
   IonInput,
   IonItem,
   IonList,
-  IonLabel,
   IonRadioGroup,
   IonRadio, } from '@ionic/angular';
 
@@ -23,18 +21,15 @@ import { IonButtons,
   templateUrl: './login.page.html',
   styleUrls: ['./login.page.scss'],
   imports: [
-    IonButtons,
     IonContent,
     IonHeader,
     IonTitle,
     IonToolbar,
     IonButton,
     IonIcon,
-    IonAvatar,
     IonInput,
     IonItem,
     IonList,
-    IonLabel,
     IonRadioGroup,
     IonRadio
   ],

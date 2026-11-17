@@ -5,15 +5,13 @@ import {
   IonButtons,
   IonContent,
   IonHeader,
-  IonTitle,
   IonToolbar,
   IonButton,
   IonIcon,
   IonAvatar,
   IonInput,
   IonItem,
-  IonList,
-  IonLabel
+  IonList
 } from '@ionic/angular';
 import { addIcons } from 'ionicons';
 import { arrowForward, arrowBack, pencilOutline } from 'ionicons/icons';
@@ -26,15 +24,13 @@ import { arrowForward, arrowBack, pencilOutline } from 'ionicons/icons';
       IonButtons,
       IonContent,
       IonHeader,
-      IonTitle,
       IonToolbar,
       IonButton,
       IonIcon,
       IonAvatar,
       IonInput,
       IonItem,
-      IonList,
-      IonLabel
+      IonList
   ]
 })
 export class PerfilPage implements OnInit {

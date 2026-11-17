@@ -5,17 +5,12 @@ import {
   IonButtons,
   IonContent,
   IonHeader,
-  IonTitle,
   IonToolbar,
   IonButton,
   IonIcon,
-  IonAvatar,
   IonInput,
   IonItem,
   IonList,
-  IonLabel,
-  IonSelect,
-  IonSelectOption,
   IonCard,
 } from '@ionic/angular';
 import { addIcons } from 'ionicons';
@@ -28,17 +23,12 @@ import { arrowForward, arrowBack, pencilOutline } from 'ionicons/icons';
   imports: [IonButtons,
   IonContent,
   IonHeader,
-  IonTitle,
   IonToolbar,
   IonButton,
   IonIcon,
-  IonAvatar,
   IonInput,
   IonItem,
   IonList,
-  IonLabel,
-  IonSelect,
-  IonSelectOption,
   IonCard,]
 })
 export class CadastropedidoPage implements OnInit {

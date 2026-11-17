@@ -35,116 +35,10 @@ ion-header {
   --box-shadow: none;
 }
 
-.side-menu-container {
-  width: 49px;
-  height: 49px;
-
-  border: 3px solid #E2828F;
-  border-radius: 50%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.side-menu {
-  --color: #E2828F;
-  --background: transparent;
-
-  width: 100%;
-}
-
 .ion-padding{
   --padding-start: 16px;
   --padding-end: 16px;
   --padding-top: 0px;
-}
-
-.card {
-  --background: #E2828F;
-  --color: #fff;
-  width: 100%;
-  margin: 0;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.produtos-card-img {
-  display: block;
-  width: 100%;
-  height: 110px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.pedidos-card-img {
-  display: block;
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  border-radius: 10px;
-  margin: 10px 8px;
-}
-
-.card ion-card-content{
-  padding: 0px 10px 8px;
-}
-.card ion-card-content, ion-card-title, ion-card-subtitle {
-  color: #fff;
-  margin: 0px;
-}
-
-swiper-slide {
-  display: flex;
-  width: 140px;
-  height: auto;
-  box-sizing: border-box;
-}
-
-swiper-container {
-  display: block;
-  width: 100%;
-  padding-bottom: 8px;
-}
-
-.categoria-data-cod {
-  margin: 8px 0px 2px;
-  font-size: 9px;
-  letter-spacing: 1px;
-}
-
-.nome-produto {
-  font-size: 15px;
-  font-weight: bold;
-
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.marca-cliente {
-  margin: 0;
-  font-size: 11.5px;
-
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-ion-card-header{
-  padding: 5px 10px;
-}
-
-.topicos-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  margin-bottom: 8px;
-}
-
-.topicos-header .titulo {
-  margin: 0;
 }
 
 .botao-seta {
@@ -199,15 +93,6 @@ ion-card-header{
   width: 44px;
   height: 40px;
   margin: 0;
-}
-
-.check {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-
-  font-size: 24px;
-  color: #ffffff;
 }
 
 .footer {

@@ -5,49 +5,41 @@ import {
   IonButtons,
   IonContent,
   IonHeader,
-  IonTitle,
   IonToolbar,
   IonButton,
   IonIcon,
-  IonAvatar,
   IonInput,
   IonItem,
   IonList,
-  IonLabel,
-  IonSelect,
-  IonSelectOption,
-  IonCard,
 } from '@ionic/angular';
 import { addIcons } from 'ionicons';
-import { arrowForward, arrowBack, pencilOutline, addCircle } from 'ionicons/icons';
+import {
+  arrowForward,
+  arrowBack,
+  pencilOutline,
+  addCircle,
+} from 'ionicons/icons';
 
 @Component({
   selector: 'app-cadastroproduto',
   templateUrl: './cadastroproduto.page.html',
   styleUrls: ['./cadastroproduto.page.scss'],
-  imports: [IonButtons,
+  imports: [
+    IonButtons,
     IonContent,
     IonHeader,
-    IonTitle,
     IonToolbar,
     IonButton,
     IonIcon,
-    IonAvatar,
     IonInput,
     IonItem,
     IonList,
-    IonLabel,
-    IonSelect,
-    IonSelectOption,
-    IonCard,]
+  ],
 })
 export class CadastroprodutoPage implements OnInit {
-
-  constructor() { 
+  constructor() {
     addIcons({ arrowForward, arrowBack, pencilOutline, addCircle });
   }
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

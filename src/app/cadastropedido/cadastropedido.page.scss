@@ -41,15 +41,6 @@ ion-header {
   --padding-top: 0px;
 }
 
-.card {
-  --background: #E2828F;
-  --color: #fff;
-  width: 100%;
-  margin: 0;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
 .botao-seta {
   --background: transparent;
   --background-activated: transparent;
@@ -327,23 +318,3 @@ ion-list {
   background: transparent;
 }
 
-.select-outline {
-  width: 50%;
-  min-height: 44px;
-  margin-top: 6px;
-  padding: 0 12px;
-
-  background: #fff;
-  border: 1px solid #E2828F;
-  border-radius: 999px;
-
-  color: #E2828F;
-  --placeholder-color: #E2828F;
-  --placeholder-opacity: 1;
-}
-
-.select-outline::part(text),
-.select-outline::part(placeholder) {
-  color: #E2828F;
-  opacity: 1;
-}

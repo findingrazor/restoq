@@ -47,104 +47,9 @@ ion-title {
   width: 100%;
 }
 
-.categoria-data-cod {
-  margin: 8px 0px 2px;
-  font-size: 9px;
-  letter-spacing: 1px;
-}
-
-.nome-produto {
-  font-size: 15px;
-  font-weight: bold;
-
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.marca-cliente {
-  margin: 0;
-  font-size: 11.5px;
-
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-ion-card-header{
-  padding: 5px 10px;
-}
-
-.topicos-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  margin-bottom: 8px;
-}
-
-.topicos-header .titulo {
-  margin: 0;
-}
-
-.botao-seta {
-  --background: transparent;
-  --background-activated: transparent;
-  --background-hover: transparent;
-  --background-activated: transparent;
-  --background-focused: transparent;
-  --color: #E2828F;
-  --color-hover: #E2828F;
-  --color-activated: #E2828F;
-  --color-focused: #E2828F;
-  
-  --padding-start: 0;
-  --padding-end: 0;
-  --border-width: 0px;
-  --border-color: transparent;
-  --box-shadow: none;
-  --ripple-color: transparent;
-
-  width: 44px;
-  height: 40px;
-  margin: 0;
-}
-
 .botao-fechar ion-icon {
   font-size: 48px;
   width: 100%;
-}
-
-.fechar-container{
-    width: 49px;
-  height: 49px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.botao-lapis {
-    --background: transparent;
-  --background-activated: transparent;
-  --background-hover: transparent;
-  --background-activated: transparent;
-  --background-focused: transparent;
-  --color: #E2828F;
-  --color-hover: #E2828F;
-  --color-activated: #E2828F;
-  --color-focused: #E2828F;
-  
-  --padding-start: 0;
-  --padding-end: 0;
-  --border-width: 0px;
-  --border-color: transparent;
-  --box-shadow: none;
-  --ripple-color: transparent;
-
-  width: 44px;
-  height: 40px;
-  margin: 0;
 }
 
 ion-icon {
@@ -187,34 +92,6 @@ ion-icon {
   z-index: 3;
 }
 
-.avatar-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 10px;
-}
-
-ion-avatar.avatar {
-  width: 118px;
-  height: 113px;
-  flex: 0 0 118px;
-  overflow: hidden;
-}
-
-ion-avatar.avatar img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.texto-container .titulo {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .texto {
   width: 100%;
   text-align: center;
@@ -250,15 +127,6 @@ ion-button {
   --color-hover: #E2828F;
   --color-activated: #E2828F;
   --color-focused: #E2828F;
-}
-
-.button-alt {
-    width: 200px;
-    --background: transparent;
-    --border-color: #FFF;
-    --border-width: 2px;
-    --border-radius: 999px;
-    --color:#FFF;
 }
 
 .input-list {
@@ -312,17 +180,4 @@ ion-button {
   width: 100%;
   gap: 8px;
   margin-top: 10px;
-}
-
-.opcoes-login ion-radio {
-  --color: #fff;
-  --color-checked: #fff;
-  font-size: 14px;
-}
-
-.link-senha {
-  color: #fff;
-  font-size: 13px;
-  text-decoration: underline;
-  white-space: nowrap;
 }

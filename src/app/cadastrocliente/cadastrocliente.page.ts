@@ -5,15 +5,12 @@ import {
   IonButtons,
   IonContent,
   IonHeader,
-  IonTitle,
   IonToolbar,
   IonButton,
   IonIcon,
-  IonAvatar,
   IonInput,
   IonItem,
   IonList,
-  IonLabel,
 } from '@ionic/angular';
 import { addIcons } from 'ionicons';
 import { arrowForward, arrowBack, pencilOutline } from 'ionicons/icons';
@@ -26,15 +23,12 @@ import { arrowForward, arrowBack, pencilOutline } from 'ionicons/icons';
     IonButtons,
     IonContent,
     IonHeader,
-    IonTitle,
     IonToolbar,
     IonButton,
     IonIcon,
-    IonAvatar,
     IonInput,
     IonItem,
     IonList,
-    IonLabel,
   ],
 })
 export class CadastroclientePage implements OnInit {
