@@ -5,41 +5,48 @@
     </ion-toolbar>
   </ion-header>
   <ion-content>
-    <div class="ion-padding">
-      <div class="texto-container">
-        <h1 class="titulo">Login</h1>
+    <form (ngSubmit)="login()" [formGroup]="credentials">
+      <div class="ion-padding">
+        <div class="texto-container">
+          <h1 class="titulo">Login</h1>
+        </div>
+        <br>
+        <div class="input-container">
+          <ion-list class="input-list">
+            <div class="campo-grupo">
+              <h4 class="titulo-input">Email</h4>
+              <ion-item class="campo">
+                <ion-input type="email" formControlName="email" placeholder="Digite o email"></ion-input>
+                <ion-note slot="error" *ngIf="(email.dirty || email.touched) && email.errors">Email inválido</ion-note>
+                <ion-icon slot="start" name="mail"></ion-icon>
+              </ion-item>
+            </div>
+            <br>
+            <div class="campo-grupo">
+              <h4 class="titulo-input">Senha</h4>
+              <ion-item class="campo">
+                <ion-input type="password" formControlName="password" placeholder="Digite a senha"></ion-input>
+                <ion-note slot="error" *ngIf="(password.dirty || password.touched) && password.errors">Senhas de seis
+                  caracteres</ion-note>
+                <ion-icon slot="start" name="bag"></ion-icon>
+              </ion-item>
+            </div>
+          </ion-list>
+        </div>
+        <div class="opcoes-login">
+          <ion-radio-group value="end" [allowEmptySelection]="true">
+            <ion-radio value="end" labelPlacement="end" value="Lembre de mim">Lembre de mim</ion-radio>
+          </ion-radio-group>
+          <a class="link-senha" href="">Esqueci minha senha</a>
+        </div>
+        <div class="buttons-container">
+          <ion-button shape="round" type="submit" expand="block" [disabled]="!credentials.valid">ENTRAR</ion-button>
+          <ion-button fill="outline" class="button-alt" routerLink="/cadastrouser" type="button"
+            expand="block">CADASTRE-SE</ion-button>
+        </div>
+
       </div>
-      <br>
-      <div class="input-container">
-        <ion-list class="input-list">
-          <div class="campo-grupo">
-            <h4 class="titulo-input">Email</h4>
-            <ion-item class="campo">
-              <ion-input type="email"></ion-input>
-              <ion-icon slot="start" name="mail"></ion-icon>
-            </ion-item>
-          </div>
-          <br>
-          <div class="campo-grupo">
-            <h4 class="titulo-input">Senha</h4>
-            <ion-item class="campo">
-              <ion-input type="password"></ion-input>
-              <ion-icon slot="start" name="bag"></ion-icon>
-            </ion-item>
-          </div>
-        </ion-list>
-      </div>
-      <div class="opcoes-login">
-        <ion-radio-group value="end" [allowEmptySelection]="true" value="turtles">
-          <ion-radio value="end" labelPlacement="end" value="Lembre de mim">Lembre de mim</ion-radio>
-        </ion-radio-group>
-        <a class="link-senha" href="">Esqueci minha senha</a>
-      </div>
-      <div class="buttons-container">
-        <ion-button shape="round">ENTRAR</ion-button>
-        <ion-button fill="outline" class="button-alt">CADASTRE-SE</ion-button>
-      </div>
-    </div>
+    </form>
     <div class="footer">
       <div class="footer-art">
         <img class="onda onda-1" src="assets/footer/onda4.svg" alt="" />

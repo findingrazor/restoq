@@ -2,7 +2,7 @@
   <ion-header class="ion-no-border">
     <ion-toolbar>
       <ion-buttons slot="start">
-        <ion-button class="botao-seta">
+        <ion-button class="botao-seta" routerLink="/home">
           <ion-icon name="arrow-back" slot="icon-only"></ion-icon>
         </ion-button>
       </ion-buttons>
@@ -15,12 +15,12 @@
         <h1 class="titulo">Clientes</h1>
       </div>
       <div class="buttons-container">
-        <ion-button shape="round" class="botao-novo-produto">NOVO CLIENTE</ion-button>
+        <ion-button shape="round" class="botao-novo-produto" routerLink="/cadastrocliente">NOVO CLIENTE</ion-button>
       </div>
       <br>
       <div class="barra-acoes">
         <div class="busca-container">
-          <ion-input class="busca-input" placeholder="Digite nome, categoria..."></ion-input>
+          <ion-input class="busca-input" placeholder="Digite nome do cliente"></ion-input>
 
           <ion-button class="botao-busca">
             <ion-icon name="search" slot="icon-only"></ion-icon>
@@ -34,7 +34,7 @@
         </div>
       </div>
       <br>
-      <ion-card class="card-cliente">
+      <ion-card class="card-cliente" routerLink="/alteracliente">
         <div class="card-cliente-conteudo">
 
           <div class="info-cliente">
@@ -51,12 +51,12 @@
 
         </div>
       </ion-card>
-      <ion-card class="card-cliente">
+      <ion-card class="card-cliente" routerLink="/alteracliente">
         <div class="card-cliente-conteudo">
 
           <div class="info-cliente">
             <div class="nome-cliente">
-              Elaine Freitas
+              João Maria
             </div>
 
             <div class="telefone-cliente">
@@ -68,12 +68,12 @@
 
         </div>
       </ion-card>
-      <ion-card class="card-cliente">
+      <ion-card class="card-cliente" routerLink="/alteracliente">
         <div class="card-cliente-conteudo">
 
           <div class="info-cliente">
             <div class="nome-cliente">
-              Elaine Freitas
+              Fernanda Barros
             </div>
 
             <div class="telefone-cliente">

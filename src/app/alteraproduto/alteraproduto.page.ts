@@ -13,30 +13,35 @@ import {
   IonList,
 } from '@ionic/angular';
 import { addIcons } from 'ionicons';
-import { arrowForward, arrowBack, pencilOutline, addCircle } from 'ionicons/icons';
+import {
+  arrowForward,
+  arrowBack,
+  pencilOutline,
+  addCircle,
+} from 'ionicons/icons';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-alteraproduto',
   templateUrl: './alteraproduto.page.html',
   styleUrls: ['./alteraproduto.page.scss'],
-  imports: [IonButtons,
-      IonContent,
-      IonHeader,
-      IonToolbar,
-      IonButton,
-      IonIcon,
-      IonInput,
-      IonItem,
-      IonList,
-    ]
+  imports: [
+    IonButtons,
+    IonContent,
+    IonHeader,
+    IonToolbar,
+    IonButton,
+    IonIcon,
+    IonInput,
+    IonItem,
+    IonList,
+    RouterLink,
+  ],
 })
 export class AlteraprodutoPage implements OnInit {
-
   constructor() {
     addIcons({ arrowForward, arrowBack, pencilOutline, addCircle });
-   }
-
-  ngOnInit() {
   }
 
+  ngOnInit() {}
 }

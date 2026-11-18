@@ -21,6 +21,7 @@ import {
   filter,
   arrowBack,
 } from 'ionicons/icons';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-vendas',
@@ -36,6 +37,7 @@ import {
     IonIcon,
     IonInput,
     IonCard,
+    RouterLink,
   ],
 })
 export class PedidosPage implements OnInit {

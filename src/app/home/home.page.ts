@@ -22,6 +22,7 @@ import {
   addCircle,
 } from 'ionicons/icons';
 import { MenuController } from '@ionic/angular';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -38,6 +39,7 @@ import { MenuController } from '@ionic/angular';
     IonTitle,
     IonToolbar,
     IonAvatar,
+    RouterLink,
   ],
 })
 export class HomePage {

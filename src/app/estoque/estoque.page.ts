@@ -10,10 +10,11 @@ import {
   IonButton,
   IonIcon,
   IonInput,
-  IonCard
+  IonCard,
 } from '@ionic/angular';
 import { addIcons } from 'ionicons';
 import { arrowDown, search, filter, arrowBack } from 'ionicons/icons';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-estoque',
@@ -29,7 +30,8 @@ import { arrowDown, search, filter, arrowBack } from 'ionicons/icons';
     IonToolbar,
     IonIcon,
     IonInput,
-    IonCard
+    IonCard,
+    RouterLink,
   ],
 })
 export class EstoquePage implements OnInit {

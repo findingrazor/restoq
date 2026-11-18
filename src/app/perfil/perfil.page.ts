@@ -11,35 +11,34 @@ import {
   IonAvatar,
   IonInput,
   IonItem,
-  IonList
+  IonList,
 } from '@ionic/angular';
 import { addIcons } from 'ionicons';
 import { arrowForward, arrowBack, pencilOutline } from 'ionicons/icons';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-perfil',
   templateUrl: './perfil.page.html',
   styleUrls: ['./perfil.page.scss'],
   imports: [
-      IonButtons,
-      IonContent,
-      IonHeader,
-      IonToolbar,
-      IonButton,
-      IonIcon,
-      IonAvatar,
-      IonInput,
-      IonItem,
-      IonList
-  ]
+    IonButtons,
+    IonContent,
+    IonHeader,
+    IonToolbar,
+    IonButton,
+    IonIcon,
+    IonAvatar,
+    IonInput,
+    IonItem,
+    IonList,
+    RouterLink,
+  ],
 })
 export class PerfilPage implements OnInit {
-
   constructor() {
     addIcons({ arrowForward, arrowBack, pencilOutline });
   }
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

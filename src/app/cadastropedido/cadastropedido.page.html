@@ -2,7 +2,7 @@
   <ion-header class="ion-no-border">
     <ion-toolbar>
       <ion-buttons slot="start">
-        <ion-button class="botao-seta">
+        <ion-button class="botao-seta" routerLink="/pedidos">
           <ion-icon name="arrow-back" slot="icon-only"></ion-icon>
         </ion-button>
       </ion-buttons>
@@ -19,7 +19,7 @@
           <div class="campo-grupo">
             <h2 class="titulo">Produto</h2>
             <ion-item class="campo">
-              <ion-input value="ex: Sabonete Amarelo"></ion-input>
+              <ion-input placeholder="Digite o nome do produto"></ion-input>
               <ion-button slot="end" class="botao-lapis">
                 <ion-icon slot="icon-only" name="pencil-outline"></ion-icon>
               </ion-button>
@@ -30,7 +30,7 @@
             <div>
               <h2 class="titulo">Quantidade</h2>
               <ion-item class="campo campo-alt">
-                <ion-input></ion-input>
+                <ion-input placeholder="0"></ion-input>
                 <ion-button slot="end" class="botao-lapis">
                   <ion-icon slot="icon-only" name="pencil-outline"></ion-icon>
                 </ion-button>
@@ -53,7 +53,7 @@
 
               <div class="item-resumo">
                 <div class="coluna-produto">
-                  <span class="marca-produto">Hidratante Tododia</span>
+                  <span class="marca-produto">Produto</span>
                 </div>
 
                 <div class="coluna-quantidade">
@@ -61,13 +61,13 @@
                 </div>
 
                 <div class="coluna-valor">
-                  <span>R$ 79,99</span>
+                  <span>R$ 99,99</span>
                 </div>
               </div>
 
-              <div class="acao-adicionar">
-                <ion-button fill="clear" class="botao-adicionar">
-                  Adicionar mais
+              <div class="acao-excluir">
+                <ion-button fill="clear" class="botao-excluir">
+                  Excluir tudo
                 </ion-button>
               </div>
 

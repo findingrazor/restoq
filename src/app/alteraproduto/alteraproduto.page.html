@@ -2,7 +2,7 @@
   <ion-header class="ion-no-border">
     <ion-toolbar>
       <ion-buttons slot="start">
-        <ion-button class="botao-seta">
+        <ion-button class="botao-seta" routerLink="/estoque">
           <ion-icon name="arrow-back" slot="icon-only"></ion-icon>
         </ion-button>
       </ion-buttons>
@@ -17,7 +17,8 @@
       <div class="produto-edicao">
         <div class="imagem-container">
           <label class="caixa-imagem-edicao">
-            <img class="imagem-preview" alt="Imagem do produto" src="https://ionicframework.com/docs/img/demos/card-media.png"/>
+            <img class="imagem-preview" alt="Imagem do produto"
+              src="https://ionicframework.com/docs/img/demos/card-media.png" />
             <ion-icon name="pencil" class="lapis-imagem">
             </ion-icon>
           </label>
@@ -43,7 +44,7 @@
           <div class="campo-grupo">
             <h2 class="titulo">Produto</h2>
             <ion-item class="campo">
-              <ion-input value="Sabonete Amarelo"></ion-input>
+              <ion-input value="Produto"></ion-input>
               <ion-button slot="end" class="botao-lapis">
                 <ion-icon slot="icon-only" name="pencil-outline"></ion-icon>
               </ion-button>

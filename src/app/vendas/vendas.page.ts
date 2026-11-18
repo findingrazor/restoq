@@ -20,8 +20,9 @@ import {
   search,
   filter,
   arrowBack,
-  alertCircle
+  alertCircle,
 } from 'ionicons/icons';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-vendas',
@@ -37,6 +38,7 @@ import {
     IonIcon,
     IonInput,
     IonCard,
+    RouterLink,
   ],
 })
 export class VendasPage implements OnInit {
@@ -48,7 +50,7 @@ export class VendasPage implements OnInit {
       search,
       filter,
       arrowBack,
-      alertCircle
+      alertCircle,
     });
   }
 

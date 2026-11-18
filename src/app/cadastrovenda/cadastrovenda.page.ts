@@ -17,6 +17,7 @@ import {
 } from '@ionic/angular';
 import { addIcons } from 'ionicons';
 import { arrowForward, arrowBack, pencilOutline } from 'ionicons/icons';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-cadastrovenda',
@@ -34,7 +35,8 @@ import { arrowForward, arrowBack, pencilOutline } from 'ionicons/icons';
     IonList,
     IonSelect,
     IonSelectOption,
-    IonCard
+    IonCard,
+    RouterLink,
   ],
 })
 export class CadastrovendaPage implements OnInit {

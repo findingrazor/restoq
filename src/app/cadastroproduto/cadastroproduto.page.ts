@@ -19,6 +19,7 @@ import {
   pencilOutline,
   addCircle,
 } from 'ionicons/icons';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-cadastroproduto',
@@ -34,6 +35,7 @@ import {
     IonInput,
     IonItem,
     IonList,
+    RouterLink,
   ],
 })
 export class CadastroprodutoPage implements OnInit {

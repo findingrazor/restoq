@@ -2,7 +2,7 @@
   <ion-header class="ion-no-border">
     <ion-toolbar>
       <ion-buttons slot="start">
-        <ion-button class="botao-seta">
+        <ion-button class="botao-seta" routerLink="/home">
           <ion-icon name="arrow-back" slot="icon-only"></ion-icon>
         </ion-button>
       </ion-buttons>
@@ -16,7 +16,7 @@
         </ion-avatar>
       </div>
       <div class="texto-container">
-        <h1 class="titulo">Nome do Cliente</h1>
+        <h1 class="titulo">Seu Nome</h1>
         <p class="texto"><b>CPF:</b> 123.456.789-00</p>
       </div>
       <br><br>
@@ -55,7 +55,7 @@
       </div>
       <div class="buttons-container">
         <ion-button shape="round">SALVAR</ion-button>
-        <ion-button fill="outline" class="button-alt">SAIR</ion-button>
+        <ion-button fill="outline" class="button-alt" routerLink="/logout">SAIR</ion-button>
       </div>
     </div>
     <div class="footer">

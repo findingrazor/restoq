@@ -14,6 +14,7 @@ import {
 } from '@ionic/angular';
 import { addIcons } from 'ionicons';
 import { arrowDown, search, arrowBack, pencil } from 'ionicons/icons';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-clientes',
@@ -29,6 +30,7 @@ import { arrowDown, search, arrowBack, pencil } from 'ionicons/icons';
     IonIcon,
     IonInput,
     IonCard,
+    RouterLink,
   ],
 })
 export class ClientesPage implements OnInit {
